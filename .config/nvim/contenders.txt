@@ -1,0 +1,7 @@
+contender plugins
+tpope/vim-surround
+vim-scripts/ReplaceWithRegister
+
+contender options
+opt.backspace = "indent,eol,start"
+opt.iskeyword:append("-")

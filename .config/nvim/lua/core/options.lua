@@ -1,8 +1,29 @@
-vim.opt.number = true
-vim.opt.relativenumber = true
-vim.opt.tabstop = 4
-vim.opt.expandtab = true
-vim.opt.shiftwidth = 4
-vim.opt.autoindent = true
-vim.opt.listchars = {eol="$", trail="~", multispace="."}
-vim.opt.list = true
+local opt = vim.opt
+
+-- visibility
+opt.termguicolors = true
+opt.listchars = {eol="$", trail="~", multispace="."}
+opt.list = true
+opt.colorcolumn = "120"
+opt.wrap = false
+opt.cursorline = true
+opt.signcolumn = "yes"
+opt.number = true
+opt.relativenumber = true
+
+-- indentation
+opt.tabstop = 4
+opt.expandtab = true
+opt.shiftwidth = 4
+opt.autoindent = true
+
+-- searching
+opt.ignorecase = true
+opt.smartcase = true
+
+-- clipboard
+opt.clipboard:append("unnamedplus")
+
+-- window management
+opt.splitright = true
+opt.splitbelow = true
