@@ -1,6 +1,7 @@
 contender plugins
 tpope/vim-surround
 vim-scripts/ReplaceWithRegister
+tiagolva/scope.nvim
 
 contender options
 opt.backspace = "indent,eol,start"

@@ -10,4 +10,4 @@ keymap.set("n", "<leader>ll", "<cmd>set invrelativenumber<CR>")
 keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle<CR>")
 
 -- vim-maximizer
-keymap.set("n",  "<leader>m",  "<cmd>MaximizerToggle<CR>")
+keymap.set("n", "<leader>m", "<cmd>MaximizerToggle<CR>")
