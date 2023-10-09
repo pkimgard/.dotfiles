@@ -1,13 +1,7 @@
 Install:
-Telescope
-Plenary
-Treesitter
-Lualine
 LSP with Mason, lspconfig, cmp, vsnippets etc
 folke/trouble
-undotree
 autotrim
-tiagolva/scope.nvim
 
 Fix:
 vim-maximizer - load on key

@@ -10,6 +10,10 @@ opt.cursorline = true
 opt.signcolumn = "yes"
 opt.number = true
 opt.relativenumber = true
+-- folding
+opt.foldmethod = "expr"
+opt.foldexpr = "nvim_treesitter#foldexpr()"
+opt.foldenable = false
 
 -- indentation
 opt.tabstop = 4
