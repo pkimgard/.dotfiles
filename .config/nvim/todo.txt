@@ -1,7 +1,18 @@
-Install:
-LSP with Mason, lspconfig, cmp, vsnippets etc
-folke/trouble
-autotrim
+LSP:
+- Mason - DONE
+- Mason-lspconfig, lspconfig - DONE
+- Add default servers
+- Keymaps and or folke/trouble for LSP to work with diagnostics
 
-Fix:
-vim-maximizer - load on key
+CMP:
+- Basic setup - DONE
+- LSP integration - DONE
+- Basic mappings
+- File path, buffer, command integration
+- vsnip
+
+TRIM:
+- Install or write auto-trim function(newlines, trailing spaces)
+
+FIX:
+- vim-maximizer should load on key
