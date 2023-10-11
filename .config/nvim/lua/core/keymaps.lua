@@ -25,4 +25,3 @@ keymap.set("n", "<leader>m", "<cmd>MaximizerToggle<CR>")
 
 -- undotree
 keymap.set("n", "<leader>u", "<cmd>UndotreeToggle<CR>")
-
