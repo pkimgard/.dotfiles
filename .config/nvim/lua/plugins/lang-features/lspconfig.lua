@@ -1,5 +1,5 @@
 return {
-	"neovim/nvim-lspconfig",
-	lazy = false,
-	priority = 48
+    "neovim/nvim-lspconfig",
+    lazy = false,
+    priority = 48
 }

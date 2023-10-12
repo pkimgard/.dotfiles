@@ -7,9 +7,14 @@ LSP:
 CMP:
 - Basic setup - DONE
 - LSP integration - DONE
-- Basic mappings
-- File path, buffer, command integration
+- Basic mappings - DONE
+- File path, buffer, command integration - DONE
 - vsnip
+- Fix friendlysnippets
+
+MARKDOWN:
+- Markdown preview
+- Markdown img paste
 
 TRIM:
 - Install or write auto-trim function(newlines, trailing spaces)

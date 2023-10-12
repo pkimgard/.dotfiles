@@ -20,7 +20,9 @@ local handlers = {
 }
 require("mason-lspconfig").setup{
     ensure_installed = {
-        "lua_ls"
+        "lua_ls",
+        "marksman",
+        "pylsp",
     },
     handlers = handlers,
 }
